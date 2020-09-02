@@ -1,7 +1,7 @@
 '''
 Author: xiaomin
 Date: 2020-08-31 15:09:48
-LastEditTime: 2020-08-31 18:06:26
+LastEditTime: 2020-09-01 09:49:50
 LastEditors: xiaomin
 Description: 
 FilePath: \pythonTestFile\txt\test_oop4.py
@@ -32,7 +32,6 @@ def main(search_engine):
         print('found {} result(s):'.format(len(results)))
         for result in results:
             print(result)
-
 
 class SimpleEngine(SearchEngineBase):
     def __init__(self):
